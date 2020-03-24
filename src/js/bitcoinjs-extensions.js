@@ -1728,6 +1728,28 @@ bitcoinjs.bitcoin.networks.thought = {
   wif: 0x7B
 };
 
+bitcoinjs.bitcoin.networks.thoughttestnet = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x5D405F7A,
+    private: 0xB6F13F50
+  },
+  pubKeyHash: 0x6D,
+  scriptHash: 0xC1,
+  wif: 0xEB
+};
+
+bitcoinjs.bitcoin.networks.thoughtregtest = {
+  messagePrefix: 'unused',
+  bip32: {
+    public: 0x043587CF,
+    private: 0x04358394
+  },
+  pubKeyHash: 0x8C,
+  scriptHash: 0x13,
+  wif: 0xEF
+};
+
 bitcoinjs.bitcoin.networks.elastos = {
     messagePrefix: 'unused',
     bip32: {

@@ -1448,9 +1448,9 @@
         }
         return phrase;
     }
-	
+
 	function writeSplitPhrase(phrase) {
-		var wordCount = phrase.split(/\s/g).length;								//get number of words in phrase       
+		var wordCount = phrase.split(/\s/g).length;								//get number of words in phrase
 		var left=[];															//initialize array of indexs
 		for (var i=0;i<wordCount;i++) left.push(i);								//add all indexs to array
 		var group=[[],[],[]],													//make array for 3 groups
@@ -2966,6 +2966,23 @@
                 setHdCoin(1618);
             },
         },
+
+        {
+            name: "THT - Thoughttestnet",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.thoughttestnet;
+                setHdCoin(1619);
+            },
+        },
+
+        {
+            name: "THT - Thoughtregtest",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.thoughtregtest;
+                setHdCoin(1620);
+            },
+        },
+
         {
             name: "TOA - Toa",
             onSelect: function() {
