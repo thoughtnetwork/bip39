@@ -2963,7 +2963,7 @@
             name: "THT - Thought",
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.thought;
-                setHdCoin(1618);
+                setHdCoin(502);
             },
         },
 
